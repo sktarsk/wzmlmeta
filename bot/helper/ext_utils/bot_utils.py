@@ -303,7 +303,6 @@ def get_readable_message():
     msg += BotTheme('UL', UL=get_readable_file_size(up_speed))
     msg += BotTheme('IN', IN=get_readable_file_size(net_io_counters().bytes_recv)
     msg += BotTheme('OUT', OUT=get_readable_file_size(net_io_counters().bytes_sent)
-
     return msg, button
 
 
